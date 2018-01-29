@@ -1,7 +1,6 @@
 language: java
 jdk:
   - oraclejdk8
-  - oraclejdk7
 script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 notifications:
   email: siddharth.dce08@gmail.com
